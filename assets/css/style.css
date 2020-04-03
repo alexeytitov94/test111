@@ -69,6 +69,11 @@ box-shadow: 0 6px 11px -6px rgba(105, 103, 103, 0.2), 0 3px 19px -2px rgba(99, 9
 	text-align: center;
 }
 
+.input_icon img {
+	width: 20px;
+	height: 20px;
+}
+
 
 /* CHECKBOX */
 .round {
