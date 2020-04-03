@@ -14,6 +14,7 @@ const DB_NAME = '';
 const DB_USER = '';
 const DB_PASS = '';
 
+
 function sqlconnect() {
     $dbh = mysql_connect(DB_HOST, DB_USER, DB_PASS) or die("Не могу соединиться с MySQL.");
     mysql_select_db(DB_NAME) or die("Не могу подключиться к базе.");
